@@ -1,0 +1,46 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Jun-2020 01:54:03.707 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名：Apache Tomcat/9.0.36
+21-Jun-2020 01:54:03.710 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:          Jun 3 2020 17:07:09 UTC
+21-Jun-2020 01:54:03.710 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号：9.0.36.0
+21-Jun-2020 01:54:03.710 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:               Mac OS X
+21-Jun-2020 01:54:03.710 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.15.5
+21-Jun-2020 01:54:03.710 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:          x86_64
+21-Jun-2020 01:54:03.710 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/openjdk-14.jdk/Contents/Home
+21-Jun-2020 01:54:03.710 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           14+36-1461
+21-Jun-2020 01:54:03.710 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ：            Oracle Corporation
+21-Jun-2020 01:54:03.710 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36
+21-Jun-2020 01:54:03.711 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36
+21-Jun-2020 01:54:03.721 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.lang=ALL-UNNAMED
+21-Jun-2020 01:54:03.721 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.io=ALL-UNNAMED
+21-Jun-2020 01:54:03.721 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Jun-2020 01:54:03.721 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.config.file=/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/conf/logging.properties
+21-Jun-2020 01:54:03.721 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jun-2020 01:54:03.721 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djdk.tls.ephemeralDHKeySize=2048
+21-Jun-2020 01:54:03.721 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jun-2020 01:54:03.722 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Jun-2020 01:54:03.722 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dignore.endorsed.dirs=
+21-Jun-2020 01:54:03.722 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.base=/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36
+21-Jun-2020 01:54:03.722 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.home=/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36
+21-Jun-2020 01:54:03.722 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.io.tmpdir=/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/temp
+21-Jun-2020 01:54:03.722 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/Users/utsunomiyayasuyuki/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.] に存在しません。
+21-Jun-2020 01:54:03.938 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+21-Jun-2020 01:54:03.972 情報 [main] org.apache.catalina.startup.Catalina.load サーバーの初期化 [407]ms
+21-Jun-2020 01:54:03.996 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+21-Jun-2020 01:54:03.996 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/9.0.36]
+21-Jun-2020 01:54:04.002 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/webapps/docs] を配備します
+21-Jun-2020 01:54:04.165 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/webapps/docs] の Web アプリケーションの配備は [163] ms で完了しました。
+21-Jun-2020 01:54:04.165 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/webapps/manager] を配備します
+21-Jun-2020 01:54:04.191 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/webapps/manager] の Web アプリケーションの配備は [26] ms で完了しました。
+21-Jun-2020 01:54:04.191 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/webapps/examples] を配備します
+21-Jun-2020 01:54:04.373 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/webapps/examples] の Web アプリケーションの配備は [182] ms で完了しました。
+21-Jun-2020 01:54:04.374 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/webapps/ROOT] を配備します
+21-Jun-2020 01:54:04.385 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/webapps/ROOT] の Web アプリケーションの配備は [11] ms で完了しました。
+21-Jun-2020 01:54:04.385 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/webapps/host-manager] を配備します
+21-Jun-2020 01:54:04.402 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/Users/utsunomiyayasuyuki/java_development/apache-tomcat-9.0.36/webapps/host-manager] の Web アプリケーションの配備は [17] ms で完了しました。
+21-Jun-2020 01:54:04.405 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8080"] を開始しました。
+21-Jun-2020 01:54:04.411 情報 [main] org.apache.catalina.startup.Catalina.start サーバーの起動 [437]ms
+21-Jun-2020 01:55:35.366 情報 [main] org.apache.catalina.core.StandardServer.await 有効なシャットダウンコマンドがシャットダウンポート経由で受信されました。 サーバーインスタンスを停止します。
+21-Jun-2020 01:55:35.367 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+21-Jun-2020 01:55:35.370 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+21-Jun-2020 01:55:35.385 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+21-Jun-2020 01:55:35.386 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
